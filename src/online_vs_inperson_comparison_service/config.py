@@ -1,0 +1,6 @@
+PATIENT_URL="http://patient-app.us-west-2.elasticbeanstalk.com/patient/get/"
+COUNCILLOR_URL="http://councelorapp-env.eba-mdmsh3sq.us-east-1.elasticbeanstalk.com/counselor/gets/"
+ACCOUNT_URL="http://accountservice.us-east-1.elasticbeanstalk.com/user/get/"
+ROUTE_URL="https://api.tomtom.com/routing/1/calculateRoute/"
+API_KEY = "HamdIRQ6ZeNJZj69Gy2Rru0VCqe04EoK"
+PRICES_URL = "http://fuel-service:8001/fuel-price/"

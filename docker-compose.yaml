@@ -1,0 +1,21 @@
+version: '3'
+services:
+  redis:
+    image: redis:latest
+    volumes:
+      - ./data:/data
+    ports:
+      - 6379:6379
+
+  online-vs-inperson_service:
+    build: ./src/online_vs_inperson_comparison_service
+    ports:
+      - 8000:8000
+    restart: unless-stopped
+  fuel-service:
+    build: ./src/fuel_service
+    ports:
+      - 8001:8001
+    depends_on:
+      - online-vs-inperson_service
+    restart: unless-stopped
