@@ -63,6 +63,6 @@ To start the project using Docker Compose, run the following command:
 This project is a collaborative effort of team Data Mavericks.
 
 
-##Deploy on AWS EC2 Instancefollow below steps:
+## Deploy on AWS EC2 Instancefollow below steps:
 
 https://everythingdevops.dev/how-to-deploy-a-multi-container-docker-compose-application-on-amazon-ec2/ 
